@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pi Network 白皮书</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="2wSix/eVJfeTBFfDVxjgSmNJwNzzMTUv4oQTRwr1DTCG6xlUvkCS/73Jpd81z/nOJEp2ABo+Zu/+6cKKfWK0NA==">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="version-code" content="">
+ 
+<!--    <link href="https://fonts.useso.com/css?family=Montserrat:400,600" rel="stylesheet"> -->
+
+
+<link rel="stylesheet" media="all" href="assets\application-f76bbed9f3174c6bd61472e6101955af4b33eeb7d33594f48caf14ff596325e5.css" data-turbolinks-track="reload">
+    <link rel="stylesheet" media="screen" href="fonts\flaticon\css\flaticon.css">
+    <link rel="stylesheet" media="screen" href="fonts\font-awesome\css\font-awesome.min.css">
+    <script src="assets\application-959b8b89d50a9c26e6752143964757b32e1fef2caf68ccd91d870a9eef4ad4ae.js" data-turbolinks-track="reload"></script>
+ 
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7696bd2ae4cb33a1c04776b6d65c7e35";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+<!--    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-131148722-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131148722-2');
+    </script>
+ 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+  body,td,th {
+	font-family: Montserrat, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Poppins, sans-serif;
+}
+  </style>
+  -->
+  </head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="91" class="false">
+    <!--Preload-->
+<div class="preloader"></div>
+
+
+
+<nav class="navbar navbar-expand-lg fixed-top bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="index.html#home">
+      <img src="assets\logo-667cd4f63cb2e6f261e16560dea7ac9c9235dcfaf9a285274a576efc96b9ec79.png">
+      <span>MinePi.io</span>
+    </a>
+  </div>
+</nav>
+<!-- end nav -->
+
+
+<script>
+  console.log('Hello ?', navigator.language)
+</script>
+
+<div style="max-width: 768px; margin: 64px auto; padding: 0 32px">
+  <h2 style="color: #303030">
+ <strong>Pi Network 白皮书</strong></h2>
+ 
+ 
+ 
+ <p><strong>Introduction<br>
+  引言</strong></p>
+<p>Problem: Accessibility of 1st Gen Cryptocurrencies<br>
+问题:第一代加密货币的易用性</p>
+<p>Solution: Pi - Mining Goes Mobile<br>
+解决方案:Pi-让挖矿运行于移动终端</p>
+<p>Pi Economic Model: Balancing Scarcity and Access<br>
+Pi经济模型:稀缺性与获取性的平衡</p>
+<p>Utility: Monetizing untapped resources in p2p<br>
+效用:将p2p中尚未开发的资源货币化</p>
+<p>Governance - Currency for and by the people<br>
+治理——众创和众用的货币</p>
+<p>Roadmap / Deployment plan<br>
+路线图/部署计划</p>
+<p>Draft 1 on March 14, 2019<br>
+草案1 2019年3月14日</p>
+<p><strong>Preface<br>
+前言</strong><br>
+As the world becomes increasingly digital, cryptocurrency is a next natural step in the evolution of money. Pi is the first digital currency for everyday people, representing a major step forward in the adoption of cryptocurrency worldwide.<br>
+随着世界变得越来越数字化，加密货币成为货币发展的自然趋势。Pi将是每一个人日常生活中使用的第一种数字货币，标志着全世界在采用加密货币方面向前迈进了一大步。</p>
+<p>Our Mission: Build a cryptocurrency and smart contracts platform secured and operated by everyday people.<br>
+我们的使命：建立一个平常人能运用的加密货币智能合约平台，既安全又易于操作。</p>
+<p>Our Vision: Build the world's most inclusive peer-to-peer marketplace, fueled by Pi, the world's most widely used cryptocurrency.<br>
+我们的愿景:在Pi(世界上使用最广泛的加密货币)的推动下，建立世界上最具包容性的p2p市场。</p>
+<p>DISCLAIMER for more advanced readers: Because Pi's mission is to be inclusive as possible, we're going to take this opportunity to introduce our blockchain newbies to the rabbit hole 😃<br>
+免责声明:因为Pi的使命是尽可能包容，我们将借此机会介绍给新入场的区块链新手们:)</p>
+<p>Introduction: Why cryptocurrencies matter<br>
+引言:为什么加密货币如此重要<br>
+Currently, our everyday financial transactions rely upon a trusted third party to maintain a record of transactions. For example, when you do a bank transaction, the banking system keeps a record &amp; guarantees that the transaction is safe &amp; reliable. Likewise, when Cindy transfers $5 to Steve using PayPal, PayPal maintains a central record of $5 dollars debited from Cindy's account and $5 credited to Steve's. Intermediaries like banks, PayPal, and other members of the current economic system play an important role in regulating the world's financial transactions.<br>
+目前，我们日常的金融交易依赖于一个值得信赖的第三方来维护交易记录。例如，当你进行银行交易时，银行系统会记录并保证交易是安全可靠的。同样，当辛迪使用贝宝向史蒂夫转移5美元时，贝宝保持着从辛迪账户借记5美元和记入史蒂夫账户5美元的中央记录。像银行、贝宝和当前经济体系的其他成员这样的中介机构在监管世界金融交易方面发挥着重要作用。</p>
+<p>However, the role of these trusted intermediaries also has limitations:<br>
+然而，这些值得信赖的中介机构的作用也有局限性:</p>
+<ol>
+<li>
+<p>Unfair value capture. These intermediaries amass billions of dollars in wealth creation (PayPal market cap is ~$130B), but pass virtually nothing onto their customers - the everyday people on the ground, whose money drives a meaningful proportion of the global economy. More and more people are falling behind.<br>
+1.不公平的价值获取。这些中介机构积累了数十亿美元的财富创造(贝宝的市值约为1300亿美元)，但几乎没有把任何东西转嫁给他们的客户——实地的普通人，他们攫取的钱财在全球经济中占有相当大的比重。越来越多的人被远远摔在身后而望尘莫及。</p>
+</li>
+<li>
+<p>Fees. Banks and companies charge large fees for facilitating transactions. These fees often disproportionately impact lower-income populations who have the fewest alternatives.<br>
+2.费用。银行和公司为方便交易收取高额费用。这些费用往往严重影响到低收入人口，而他们别无选择。</p>
+</li>
+<li>
+<p>Censorship. If a particular trusted intermediary decides that you should not be able to move your money, it can place restrictions on the movement of your money.<br>
+3.审查制度。如果一个信托机构认为你不应该转移你的钱，它可以对你的钱的流动设置限制。</p>
+</li>
+<li>
+<p>Permissioned. The trusted intermediary serves as a gatekeeper who can arbitrarily prevent anybody from being part of the network.<br>
+4.许可。作为中间商的授信机构成为你进入全球网的守关人，可以任意阻止任何人成为网络的一份子。</p>
+</li>
+<li>
+<p>Pseudonymous. At a time when the issue of privacy is gaining greater urgency, these powerful gatekeepers can accidentally disclose – or force you to disclose – more financial information about yourself than you may want.<br>
+5.隐私。在隐私问题变得越来越紧迫的时候，这些强大的看门人可能会意外地披露----或者强迫你披露----比你想要的更多的关于你自己的财务信息。</p>
+</li>
+</ol>
+<p>Bitcoin's "peer-to-peer electronic cash system," launched in 2009 by an anonymous programmer (or group) Satoshi Nakamoto, was a watershed moment for the freedom of money. For the first time in history, people could securely exchange value, without requiring a third party or trusted intermediary. Paying in Bitcoin meant that people like Steve and Cindy could pay each other directly, bypassing institutional fees, obstructions and intrusions. Bitcoin was truly a currency without boundaries, powering and connecting a new global economy.<br>
+比特币的"点对点电子现金系统"于2009年由一个匿名的程序员(或团体)中本聪发起，是货币自由的一个分水岭。有史以来第一次，人们可以安全地交换价值，而不需要第三方或信任的中间人。用比特币支付意味着像史蒂夫和辛迪这样的人可以直接互相支付，绕过机构收费、障碍和入侵。比特币是一种真正的无国界货币，为新的全球经济提供动力和连接。<br>
+Introduction to Distributed Ledgers<br>
+分布式分类账介绍<br>
+Bitcoin achieved this historical feat by using a distributed record. While the current financial system relies on the traditional central record of truth, the Bitcoin record is maintained by a distributed community of "validators," who access and update this public ledger. Imagine the Bitcoin protocol as a globally shared "Google Sheet" that contains a record of transactions, validated and maintained by this distributed community.<br>
+比特币通过使用分布式记录实现了这一历史壮举。尽管目前的金融体系依赖于传统的真实记录，但比特币的记录是由一个分布式的"验证者"社区维护的，这些"验证者"负责访问和更新这个公共账簿。把比特币协议想象成一个全球共享的"谷歌表"，其中包含交易记录，由这个分布式社区验证和维护。</p>
+<p>The breakthrough of Bitcoin (and general blockchain technology) is that, even though the record is maintained by a community, the technology enables them to always reach consensus on truthful transactions, insuring that cheaters cannot record false transactions or overtake the system. This technological advancement allows for the removal of the centralized intermediary, without compromising transactional financial security.<br>
+比特币(以及一般的区块链技术)的突破在于，尽管记录是由社区维护的，但该技术使他们总是能够就真实交易达成共识，确保骗子不会记录虚假交易或超越系统。这种技术进步允许取消集中的中介，而不损害交易性金融安全。</p>
+<p>Benefits of distributed ledgers<br>
+分布式分类账的好处<br>
+In addition to decentralization, bitcoin, or cryptocurrencies in general, share a few nice properties that make money smarter and safer, although different cryptocurrencies may be stronger in some properties and weaker in others, based on different implementations of their protocols. Cryptocurrencies are held in cryptographic wallets identified by a publicly accessible address, and is secured by a very strong privately held password, called the private key. This private key cryptographically signs transaction and is virtually impossible to create fraudulent signatures. This provides security and unseizability. Unlike traditional bank accounts that can be seized by government authorities, the cryptocurrency in your wallet can never be taken away by anyone without your private key. Cryptocurrencies are censorship resistant due to the decentralized nature because anyone can submit transactions to any computer in the network to get recorded and validated. Cryptocurrency transactions are immutable because each block of transactions represents a cryptographic proof (a hash) of all the previous blocks that existed before that. Once someone sends you money, they cannot steal back their payment to you (i.e., no bouncing checks in blockchain). Some of the cryptocurrencies can even support atomic transactions. "Smart contracts" built atop these cryptocurrencies do not merely rely on law for enforcement, but directly enforced through publicly auditable code, which make them trustless and can potentially get rid of middlemen in many businesses, e.g. Escrow for real estate.<br>
+除了地方分权，比特币，或者一般的加密货币，共享一些好的属性，使货币更加智能和安全，虽然不同的加密货币可能在某些属性上更强，而在其他的弱，基于他们的协议的不同实现。加密货币存放在由公共可访问地址标识的加密钱包中，并由一个非常强大的私人密码保护，称为私人密钥。这种私钥通过密码签署交易，实际上不可能创建欺诈性签名。这提供了安全性和无可可抓取性。不像传统的银行账户可以被政府当局查封，你钱包里的加密货币永远不会被没有你私人钥匙的任何人拿走。由于分散的特性，加密货币具有抗审查的能力，因为任何人都可以向网络中的任何一台计算机提交交易，以获得记录和验证。加密货币事务是不可变的，因为每个事务块表示之前存在的所有块的加密证明(散列)。一旦有人寄钱给你，他们不能偷回他们的付款给你(也就是说，没有跳票在块环链)。一些加密货币甚至可以支持原子交易。建立在这些加密货币之上的"智能合同"不仅依赖于执法，而且直接通过可公开审计的代码执行，这使得它们不受信任，并有可能摆脱许多企业的中间商，例如房地产托管中介。</p>
+<p>Securing distributed ledgers (Mining)<br>
+分布式总账的安全(挖矿)<br>
+One of challenges of maintaining a distributed record of transactions is security – specifically, how to have an open and editable ledger while preventing fraudulent activity. To address this challenge, Bitcoin introduced a novel process called Mining (using the consensus algorithm "Proof of Work") to determine who is "trusted" to make updates to the shared record of transactions.<br>
+维护分布式交易记录的挑战之一是安全性——具体来说，如何在防止欺诈活动的同时拥有一个开放和可编辑的分类账。为了应对这一挑战，比特币引入了一种名为挖矿(使用共识算法"工作证明")的新颖过程，以确定谁是"可信任的"，从而更新交易的共享记录。</p>
+<p>You can think of mining as a type of economic game that forces "Validators" to prove their merit when trying to add transactions to the record. To qualify, Validators must solve a series of complex computational puzzles. The Validator who solves the puzzle first is rewarded by being allowed to post the latest block of transactions. Posting the latest block of transactions allows Validators to "mine" a Block Reward - currently 12.5 bitcoin (or ~$40,000 at the time of writing).<br>
+你可以认为挖矿是一种经济游戏，它迫使"验证者"在试图将交易添加到记录中时证明自己的价值。为了验证，验证器必须解决一系列复杂的计算难题。首先解决这个难题的贡献者将获得允许发布最新的交易块的奖励。发布最新的交易块允许验证器"挖掘"一块奖励-目前12.5比特币(约合40,000美元在本文撰写时)。</p>
+<p>This process is very secure, but it demands enormous computing power and energy consumption as users essentially "burn money" to solve the computational puzzle that earns them more Bitcoin. The burn-to-reward ratio is so punitive that it is always in Validators' self-interest to post honest transactions to the Bitcoin record.<br>
+这个过程非常安全，但它需要巨大的计算能力和能源消耗，因为用户实际上是"烧钱"来解决计算难题，从而赚取更多的比特币。烧钱与奖励的比例是如此的惩罚性，以至于在比特币记录上公布诚实的交易始终符合验证者的自身利益。</p>
+<p>Problem: Centralization of power and money put 1st Generation Cryptocurrencies out of reach.<br>
+问题:权力和金钱的集中使第一代加密货币无法触及。<br>
+In the early days of Bitcoin, when only a few people were working to validate transactions and mining the first blocks, anyone could earn 50 BTC by simply running Bitcoin mining software on their personal computer. As the currency began to gain in popularity, clever miners realized that they could earn more if they had more than one computer working to mine.<br>
+在比特币的早期，只有少数人在验证交易和挖掘第一个块，任何人只要在个人电脑上运行比特币挖掘软件就可以赚到50比特币。随着比特币开始流行，聪明的矿工们意识到，如果他们有不止一台电脑来开采，他们可以赚得更多。</p>
+<p>As Bitcoin continued to increase in value, entire companies began to spring up to mine. These companies developed specialized chips ("ASICs") and constructed huge farms of servers using these ASIC chips to mine Bitcoin. The emergence of these enormous mining corporations, known drove the Bitcoin Gold Rush, making it very difficult for everyday people to contribute to the network and get rewarded. Their efforts also began consuming increasingly large amounts of computing energy, contributing to mounting environmental issues around the world.<br>
+随着比特币价值的持续增长，大批公司开始筹建矿场。这些公司开发了专门的芯片("ASIC")，并利用这些ASIC芯片构建了巨大的服务器群来开采比特币。这些庞大的矿业公司的出现，推动了比特币淘金热，使得普通人很难为网络做出贡献并获得回报。他们的努力也开始消耗越来越大量的计算能源，导致全球环境问题日益严重。</p>
+<p>The ease of mining Bitcoin and the subsequent rise of Bitcoin mining farms quickly produced a massive centralization of production power and wealth in Bitcoin's network. To provide some context, 87% of all Bitcoins are now owned by 1% of their network, many of these coins were mined virtually free in their early days. As another example, Bitmain, one of Bitcoin's biggest mining operations has earned billions in revenue and profits.<br>
+挖掘比特币的便捷以及随之而来的比特币矿场的兴起，迅速促成了比特币网络生产力和财富的大规模集中。为了提供一些背景信息，87%的比特币现在被1%的比特币网络所拥有，其中许多比特币在早期几乎是免费开采的。另一个例子是Bitmain，比特币最大的采矿业务之一，已经获得了数十亿美元的收入和利润。</p>
+<p>The centralization of power in Bitcoin's network makes it very difficult and expensive for the average person. If you want to acquire Bitcoin, your easiest options are to:<br>
+比特币网络中的权力集中对普通人来说是非常困难和昂贵的。如果你想获得比特币，你最简单的选择是:</p>
+<ol>
+<li>
+<p>Mine It Yourself. Just hook up the specialized hardware (here's a rig on Amazon, if you're interested!) and go to town. Just know that since you'll be competing against massive server farms from across the world, consuming as much energy as the country of Switzerland, you won't be able to mine much.<br>
+1.自己挖掘。只要拥有专门的硬件(如果你感兴趣的话，这里是亚马逊上的一个平台!)然后去淘换。只要知道，由于你将与来自世界各地的大型服务器农场竞争，消耗的能源相当于整个瑞士国家的能源，而你却将无法开采太多的资源。</p>
+</li>
+<li>
+<p>Buy Bitcoin on an exchange. Today, you can buy Bitcoin at a unit price of $3,500 / coin at the time of writing (note: you can buy fractional amount of Bitcoin!) Of course, you would also be taking on substantial risk in doing so as the price of Bitcoin is quite volatile.<br>
+2.在交易所购买比特币。如今，在撰写本文时，你可以以每枚3500美元的单位价格购买比特币(注意:你可以购买部分数量的比特币!)当然，由于比特币的价格相当不稳定，这样做也将承担巨大的风险。</p>
+</li>
+</ol>
+<p>Bitcoin was the first to show how cryptocurrency could disrupt the current financial model, giving people the ability to make transactions without having a third party in the way. The increase in freedom, flexibility, and privacy continues to drive the inevitable march toward digital currencies as a new norm. Despite its benefits, Bitcoin's (likely unintended) concentration of money and power present a meaningful barrier to mainstream adoption. As Pi's core team has conducted research to try to understand why people are reluctant to enter the cryptocurrency space. People consistently cited the risk of investing/mining as a key barrier to entry.<br>
+比特币首次展示了加密货币如何打破当前的金融模式，使人们能够在没有第三方阻碍的情况下进行交易。自由度、灵活性和隐私的增加继续推动着数字货币不可避免地成为一种新的规范。尽管比特币有很多好处，但它(可能是无意中)的资金和权力集中给主流应用带来了很大的障碍。Pi的核心团队进行了一项研究，试图理解为什么人们不愿意进入加密货币领域。人们一直认为投资/采矿的风险是进入市场的一个关键障碍。</p>
+<p>Solution: Pi - Enabling mining on mobile phones<br>
+解决方案:在移动电话上实现Pi挖掘<br>
+After identifying these key barriers to adoption, the Pi Core Team set out to find a way that would allow everyday people to mine (or earn cryptocurrency rewards for validating transactions on a distributed record of transactions). As a refresher, one of the major challenges that arises with maintaining a distributed record of transactions is ensuring that updates to this open record are not fraudulent. While Bitcoin's process for updating its record is proven (burning energy / money to prove trustworthiness), it is not very user (or planet!) friendly. For Pi, we introduced the additional design requirement of employing a consensus algorithm that would also be extremely user friendly and ideally enable mining on personal computers and mobile phones.<br>
+在确定了这些采用的关键障碍之后，Pi核心小组开始寻找一种方法，让普通人能够挖掘(或者通过验证分布式交易记录的交易获得加密货币奖励)。作为一个守护者，维护分布式事务记录的主要挑战之一是确保对这个公开记录的更新不是欺诈。虽然比特币更新记录的过程已经得到证实(燃烧能量/金钱来证明可信度)，但它并不是很好的用户(或星球!)友好的。对于Pi，我们引入了额外的设计要求，即采用一致性算法，这种算法对用户非常友好，理想情况下可以在个人电脑和移动电话上进行挖掘。</p>
+<p>In comparing existing consensus algorithms (the process that records transactions into a distributed ledger), the Stellar Consensus Protocol emerges as the leading candidate to enable user-friendly, mobile-first mining. Stellar Consensus Protocol (SCP) was architected by David Mazières a professor of Computer Science at Stanford who also serves as Chief Scientist at the Stellar Development Foundation. SCP uses a novel mechanism called Federated Byzantine Agreements to ensure that updates to a distributed ledger are accurate and trustworthy. SCP is also deployed in practice through the Stellar blockchain that has been operating since 2015.<br>
+在比较现有的一致性算法(将事务记录到分布式分类账的过程)时，Stellar一致性协议成为支持用户友好、移动优先挖掘的主要候选方案。恒星共识协议(starConsensusProtocol，SCP)是由斯坦福大学计算机科学教授Davidmazi设计的，他同时也是恒星发展基金会的首席科学家。Scp使用一种称为联邦拜占庭协议(federatedbyzantineagreement)的新机制来确保分布式分类账的更新是准确和可信的。Scp也通过自2015年以来一直运行的Stellar区块链在实践中进行部署。</p>
+<p>A simplified introduction to consensus algorithms<br>
+一致性算法简介<br>
+Before jumping to introducing the Pi consensus algorithm, it helps to have a simple explanation on what a consensus algorithm does for a blockchain and the types of consensus algorithms that today's blockchain protocols generally use, e.g. Bitcoin and SCP. This section is explicitly written in a oversimplified manner for the sake of clarity, and is not complete. For higher accuracy, see the section Adaptations to SCP below and read the stellar consensus protocol paper.<br>
+在介绍Pi一致性算法之前，先简单解释一下一致性算法对区块链的作用，以及当今区块链协议通常使用的一致性算法的类型，例如比特币和SCP。为了清晰起见，本节显式地以过于简化的方式编写，并且不完整陈述。要获得更高的准确性，请参阅下面的SCP适应章节，并阅读主要共识协议文件。</p>
+<p>A blockchain is a fault-tolerant distributed system that aims to totally order a list of blocks of transactions. Fault-tolerant distributed systems is an area of computer science that has been studied for many decades. They are called distributed systems because they do not have a centralized server but instead they are composed of a decentralized list of computers (called nodes or peers) that need to come to a consensus as to what is the content and total ordering of blocks. They are also called fault-tolerant because they can tolerate a certain degree of faulty nodes into the system (e.g. up to 33% of nodes can be faulty and the overall system continues to operate normally).<br>
+区块链是一个容错的分布式系统，旨在完全有序的事务块列表。容错分布式系统是计算机科学的一个领域，已经研究了几十年。它们之所以被称为分布式系统，是因为它们没有一个集中的服务器，而是由一个分散的计算机列表(称为节点或对等点)组成，这些计算机需要就块的内容和总次序达成共识。它们也被称为容错节点，因为它们可以容忍系统中某种程度的错误节点(例如，多达33%的节点可能出错，整个系统继续正常运行)。</p>
+<p>There are two broad categories of consensus algorithms: The ones that elect a node as the leader who produces the next block, and the ones where there is no explicit leader but all nodes come to a consensus of what the next block is after exchanging votes by sending computer messages to each other. (Strictly speaking the last sentence contains multiple inaccuracies, but it helps us explain the broad strokes.)<br>
+一致同意算法有两大类:一类是选出一个节点作为产生下一个块的领导者，另一类是没有明确的领导者，但所有节点通过互相发送计算机消息，对下一个块的内容达成一致意见。(严格来说，最后一句包含了多个不准确的地方，但是它帮助我们解释了大致内容。)</p>
+<p>Bitcoin uses the first type of consensus algorithm: All bitcoin nodes are competing against each other in solving a cryptographic puzzle. Because the solution is found randomly, essentially the node that finds the solution first, by chance, is elected the leader of the round who produces the next block. This algorithm is called "Proof of work" and results in a lot of energy consumption.<br>
+比特币使用第一种共识算法:所有比特币节点在解决密码难题时相互竞争。因为解是随机发现的，本质上，首先找到解的节点，偶然地，被选举为产生下一个块的轮的领导者。这种算法被称为"工作证明"，并导致大量的能源消耗。</p>
+<p>A simplified introduction to Stellar Consensus Protocol<br>
+《恒星共识议定书》简介<br>
+Pi uses the other type of consensus algorithms and is based on the Stellar Consensus Protocol (SCP) and an algorithm called Federated Byzantine Agreement (FBA). Such algorithms don't have energy waste but they require exchanging many network messages in order for the nodes to come to "consensus" on what the next block should be. Each node can independently determine if a transaction is valid or not, e.g. authority of making the transition and double spending, based on the cryptographic signature and the transaction history. However, for a network of computers to agree on which transactions to record in a block and the order of these transactions and blocks, they need to message each other and have multiple rounds of voting to come to consensus. Intuitively, such messages from different computers in the network about which block is the next would look like the following: "I propose we all vote for block A to be next"; "I vote for block A to be the next block"; "I confirm that the majority of the nodes I trust also voted for block A", from which the consensus algorithm enables this node to conclude that "A is the next block; and there could be no block other than A as the next block"; Even though the above voting steps seem a lot, the internet is adequately fast and these messages are lightweight, thus such consensus algorithms are more lightweight than Bitcoin's proof of work. One major representative of such algorithms is called Byzantine Fault Tolerance (BFT). Several of the top blockchains today are based on variants of BFT, such as NEO and Ripple.<br>
+Pi使用其他类型的一致性算法，并基于StellarConsensusProtocol(SCP)和一个名为FederatedByzantineAgreement(FBA)的算法。这种算法没有能源浪费，但是它们需要交换许多网络消息，以便节点对下一个块应该是什么达成"共识"。每个节点可以独立地确定一个事务是否有效，例如根据加密签名和事务历史确定进行转换和重复开销的权限。然而，对于一个计算机网络来说，要商定在一个块中记录哪些交易以及这些交易和块的顺序，它们需要彼此发送消息，并进行多轮投票才能达成共识。从直观上看，来自网络中不同计算机的关于下一个块是哪个块的信息看起来像这样:"我提议我们都投票支持a块成为下一个块";"我投票支持a块成为下一个块";"我确认我信任的大多数节点也投票支持a块"，从这个一致性算法中，该节点可以得出结论:"a是下一个块;除了a之外，没有其他块是下一个块";尽管上面的投票步骤看起来很多，但互联网足够快，这些信息是轻量级的，因此这种一致性算法不仅仅是工作的证明。这种算法的一个主要代表被称为拜占庭将军问题算法。今天的一些顶级块环链是基于BFT的变体，如NEO和Ripple。</p>
+<p>One major criticism of BFT is that it has a centralization point: because voting is involved, the set of nodes participating in the voting "quorum" are centrally determined by the creator of the system in its beginning. The contribution of FBA is that, instead of having one centrally determined quorum, each node sets their own "quorum slices", which will in turn form different quorums. New nodes can join the network in a decentralized way: they declare the nodes that they trust and convince other nodes to trust them, but they don't have to convince any central authority.<br>
+对BFT的一个主要批评是它有一个集中点:因为涉及到投票，参与投票"quorum"的节点集在开始时由系统的创建者集中决定。Fba的贡献在于，每个节点都设置了自己的"法定人数小组"，而不是由一个中央决定的法定人数，这些法定人数小组又会形成不同的四分之一。新的节点可以以分散的方式加入网络:它们声明它们信任的节点，并说服其他节点信任它们，但它们不需要说服任何中央权威机构。</p>
+<p>SCP is one instantiation of FBA. Instead of burning energy like in Bitcoin's proof of work consensus algorithm, SCP nodes secure the shared record by vouching for other nodes in the network as trustworthy. Each node in the network builds a quorum slice, consisting of other nodes in the network that they deem to be trustworthy. Quorums are formed based on its members quorum slices, and a validator will only accept new transactions if and only if a proportion of nodes in their quorums will also accept the transaction. As validators across the network construct their quorums, these quorums help nodes to reach consensus about transactions with guarantee on security. You can learn more about the Stellar Consensus Protocol by watching this short, 7 min explanation video or checking out this technical summary of SCP.<br>
+Scp是FBA的一个实例。不像比特币的工作证明一致性算法那样消耗能量，SCP节点通过担保网络中的其他节点是可信的来保护共享记录。网络中的每个节点构建quorumslice，quorumslice由网络中它们认为可信的其他节点组成。量程是根据其成员的法定人数小组形成的，并且只有当且仅当量程中的一部分节点也接受事务时，验证器才会接受新的事务。由于整个网络的验证器构造它们的准则，这些准则帮助节点在保证安全的前提下就事务达成共识。你可以通过观看这个7分钟的简短解释视频或者查看SCP的技术总结来了解更多关于恒星一致性协议的信息。</p>
+<p>Pi's Adaptations to Stellar Consensus Protocol (SCP)<br>
+Pi对恒星协商一致协议(SCP)的适应<br>
+Pi's consensus algorithm builds atop SCP. SCP has been formally proven [Mazieres 2015] and is currently implemented within the Stellar Network. Unlike Stellar Network consisting mostly of companies and institutions (e.g., IBM) as nodes, Pi intends to allow devices of individuals to contribute on the protocol level and get rewarded, including mobile phones, laptops and computers. Below is an introduction on how Pi applies SCP to enabling mining by individuals.<br>
+Pi的一致性算法建立在SCP之上。Scp已被正式证明[Mazieres2015]，目前正在恒星网络中实施。与主要由公司和机构(如IBM)组成的StellarNetwork不同，Pi打算允许个人设备在协议层面做出贡献并获得奖励，包括移动电话、笔记本电脑和计算机。下面介绍Pi如何将SCP应用到个人挖矿中。</p>
+<p>There are four roles Pi users can play, as Pi miners. Namely:<br>
+用户可以扮演四个角色，即:</p>
+<p>•	Pioneer. A user of the Pi mobile app who is simply confirming that they are not a "robot" on a daily basis. This user validates their presence every time they sign in to the app. They can also open the app to request transactions (e.g. make a payment in Pi to another Pioneer)<br>
+•	先锋。Pi手机应用的用户每天只是简单地确认他们不是"机器人"。这个用户每次登录到应用程序时都会验证他们的存在。他们还可以打开应用程序请求交易(例如用Pi向另一个先行公司付款)</p>
+<p>•	Contributor. A user of the Pi mobile app who is contributing by providing a list of pioneers he or she knows and trusts. In aggregate, Pi contributors will build a global trust graph.<br>
+•	贡献者。Pi手机应用程序的用户，通过提供他或她所认识和信任的先锋名单来做出贡献。总的来说，Pi贡献者将建立一个全局信任图。</p>
+<p>•	Ambassador. A user of the Pi mobile app who is introducing other users into Pi Network.<br>
+•	大使。一个Pi手机应用程序的用户，他正在将其他用户引入Pi网络。</p>
+<p>•	Node. A user who is a pioneer, a contributor using the Pi mobile app, and is also running the Pi node software on their desktop or laptop computer. The Pi node software is the software that runs the core SCP algorithm, taking into account the trust graph information provided by the Contributors.<br>
+•	节点。一个使用Pi移动应用程序的先锋，一个贡献者，并且在他们的台式机或笔记本电脑上运行Pi节点软件。Pi节点软件是运行核心SCP算法的软件，此软件参照贡献者提供的信任图信息。</p>
+<p>A user can play more than one of the above roles. All roles are necessary, thus all roles are rewarded with newly minted Pi on a daily basis as long as they participated and contributed during that given day. In the loose definition of a "miner" being a user who receives newly minted currency as a reward for contributions, all four roles are considered to be Pi miners. We define"mining" more broadly than its traditional meaning equated to executing proof of work consensus algorithm as in Bitcoin or Ethereum.<br>
+用户可以扮演上述多个角色。所有的角色都是必要的，因此所有的角色都会在每天的基础上获得新的Pi币，只要他们在那一天参与并做出贡献。在对"miner"的宽松定义中，"miner"是指获得新币作为贡献奖励的用户，所有四个角色都被认为是Pi矿工。我们对"挖矿"的定义比传统意义上的"执行工作证明一致性算法"更宽泛，比如在比特币或以太网中。</p>
+<p>First of all, we need to emphasize that the Pi Node software has not been released yet. So this section is offered more as an architectural design and as a request to solicit comments from the technical community. This software will be fully open source and it will also heavily depend on stellar-core which is also open source software, available here. This means that anyone in the community will be able to read, comment and propose improvements on it. Below are the Pi proposed changes to SCP to enable mining by individual devices.<br>
+首先，我们需要强调的是Pi Node软件还没有发布。因此，本节更多的是作为一个架构设计提供的，也是一个向技术社区征求意见的请求。这个软件将是完全开源的，它也将严重依赖恒星核心，这也是开源软件，可在这里。这意味着社区中的任何人都可以阅读、评论并提出改进建议。下面是Pi提议的SCP更改，以支持单设备挖掘。</p>
+<p>Nodes<br>
+节点<br>
+For readability, we define as a correctly connected node to be what the SCP paper refers to as an intact node. Also, for readability, we define as the main Pi Network to be the set of all intact nodes in the Pi Network. The main task of each Node is to be configured to be correctly connected to the main Pi Network. Intuitively, a node being incorrectly connected to the main network is similar to a Bitcoin node not being connected to the main bitcoin network.<br>
+为了便于阅读，我们将SCP文章中提到的正确连接节点定义为完整节点。另外，为了可读性，我们将主Pi网络定义为Pi网络中所有完整节点的集合。每个节点的主要任务是配置为正确连接到主Pi网络。直观地说，一个不正确地连接到主网络的节点类似于一个没有连接到主比特币网络的比特币节点。</p>
+<p>In SCP's terms, for a node to get correctly connected means that this node must chose a "quorum slice" such that all resulting quorums that include this node intersect with the existing network's quorums. More precisely, a node vn+1 is correctly connected to a main network N of n already correctly connected nodes (v1, v2, …, vn) if the resulting system N' of n+1 nodes (v1, v2, …, vn+1) enjoys quorum intersection. In other words, N' enjoys quorum intersection iff any two of its quorums share a node. – i.e., for all quorums U1 and U2, U1∩U2 ≠ ∅.<br>
+用SCP的术语来说，一个节点要正确连接意味着这个节点必须选择一个"量子组"，这样包含这个节点的所有产生的量子与现有网络的量子相交。更准确地说，一个节点vn+1正确连接到一个主网络n的n个已经正确连接的节点(v1，v2，…，vn)，如果得到的系统n'的n+1节点(v1，v2，…，vn+1)享有量子交集。换句话说，n'享有量子链接权，当且仅当其任意两个量子共享一个节点。–即，对于所有的量子集U1和U2，U1和U2交集≠任意值。</p>
+<p>The main contribution of Pi over the existing Stellar consensus deployment is that it introduces the concept of a trust graph provided by the Pi Contributors as information that can be used by the Pi nodes when they are setting up their configurations to connect to the main Pi Network.<br>
+对于现有的恒星共识部署，Pi的主要贡献是引入了Pi贡献者提供的信任图的概念，作为Pi节点在设置连接到主Pi网络的配置时可以使用的信息。</p>
+<p>When picking their quorum slices, these Nodes must take into consideration the trust graph provided by the Contributors, including their own security circle. To assist in this decision, we intend to provide auxiliary graph analysis software to assist users running Nodes to make as informed decisions as possible. This software's daily output will include:<br>
+在选择它们的待接入组时，这些节点必须考虑贡献者提供的信任图，包括它们自己的安全圈。为了协助这一决定，我们打算提供辅助图形分析软件，以帮助运行节点的用户做出尽可能知情的决定。该软件的日常输出包括:</p>
+<p>•	a ranked list of nodes ordered by their distance from the current node in the trust graph; a ranked list of nodes based a pagerank analysis of nodes in the trust graph<br>
+•	信任图中按照节点与当前节点的距离排序的节点的排序列表;基于信任图中节点的pagerank分析的节点排序列表</p>
+<p>•	a list of nodes reported by the community as faulty in any way a list of new nodes seeking to join the network<br>
+•	由社区报告的在任何方面都是错误的节点列表寻求加入网络的新节点列表</p>
+<p>•	a list of most recent articles from the web on the keyword "misbehaving Pi nodes" and other related keywords; a visual representation of Nodes comprising the Pi Network similar to what is shown in StellarBeat Quorum monitor [source code] .<br>
+•	关键字"失常的Pi节点"和其他相关关键字的最新文章列表;与StellarBeat Quorum monitor[源代码]类似的Pi网络节点的直观表示。</p>
+<p>•	a quorum explorer similar to QuorumExplorer.com [source code].<br>
+•	类似于quorumexplorer.com[源代码]的quorum浏览器。</p>
+<p>•	a simulation tool like the one in StellarBeat Quorum monitor that shows the expected resulting impacts to this nodes' connectivity to the Pi Network when the current node's configuration changes.<br>
+•	一个类似于StellarBeat Quorum monitor的模拟工具，显示当前节点的配置发生变化时，预期结果对节点与Pi网络的连接产生的影响。</p>
+<p>An interesting research problem for future work is to develop algorithms that can take into consideration the trust graph and suggest each node an optimal configuration, or even set that configuration automatically. On the first deployment of the Pi Network, while users running Nodes can update their Node configuration at any time, they will be prompted to confirm their configurations daily and asked to update them if they see fit.<br>
+未来工作的一个有趣的研究问题是开发算法，可以考虑信任图，并建议每个节点一个最佳配置，甚至自动设置该配置。在Pi网络的第一次部署中，当运行Node的用户可以随时更新他们的Node配置时，系统会提示他们每天确认他们的配置，并要求他们在认为合适的时候进行更新。</p>
+<p>Mobile app users<br>
+移动应用程序用户<br>
+When a Pioneer needs to confirm that a given transaction has been executed (e.g. that they have received Pi) they open the mobile app. At that point, the mobile app connects to one or more Nodes to inquire if the transaction has been recorded on the ledger and also to get the most recent block number and hash value of that block. If that Pioneer is also running a Node the mobile app connects to that Pioneer's own node. If the Pioneer is not running a node, then the app connects to multiple nodes and to cross check this information. Pioneers will have the ability select which nodes they want their apps to connect to. But to make it simple for most users, the app should have a reasonable default set of nodes, e.g. a number of nodes closest to the user based on the trust graph, along with a random selection of nodes high in pagerank. We ask for your feedback on how the default set of nodes for mobile Pioneers should be selected.<br>
+当先锋需要确认一个给定的交易已经执行(例如，他们已经收到了π)，他们就会打开移动应用程序。此时，移动应用程序连接到一个或多个节点，以查询交易是否已被记录在分类账上，并获取该块的最新块号和散列值。如果先锋也运行一个Node，那么移动应用程序将连接到先锋自己的节点。如果先锋没有运行一个节点，那么应用程序将连接到多个节点并交叉检查这些信息。先锋可以选择他们希望他们的应用程序连接到哪些节点。但是为了让大多数用户简单，应用程序应该有一个合理的默认节点集，例如基于信任图的一些最接近用户的节点，以及随机选择的高pagerank的节点。我们请您就如何选择移动先锋的默认节点集提供反馈。</p>
+<p>Mining rewards<br>
+挖矿奖励<br>
+A beautiful property of the SCP algorithm is that it is more generic than a blockchain. It coordinates consensus across a distributed system of Nodes. This means that the same core algorithm is not only used every few seconds to record new transactions in new blocks, but also it can be used to periodically run more complex computations. For example, once a week, the stellar network is using it to compute inflation on the stellar network and allocate the newly minted tokens proportionally to all stellar coin holders (Stellar's coin is called lumens). In a similar manner, the Pi Network employs SCP once a day to compute the network-wide new Pi distribution across all Pi miners (pioneers, contributors, ambassadors, nodes) who actively participated in any given day. In other words, Pi mining rewards are computed only once daily and not on every block of the blockchain.<br>
+Scp算法的一个优越的特性是它比区块链更加通用。它协调整个分布式节点系统的一致性。这意味着相同的核心算法不仅每隔几秒就用于在新块中记录新事务，而且还可以用于周期性地运行更复杂的计算。例如，恒星网络每周一次使用它来计算恒星网络上的扩容，并将新铸造的代币按比例分配给所有恒星币持有者(恒星币称为流明)。同样，Pi网络每天使用SCP一次计算所有Pi矿工(先锋者、贡献者、大使、节点)拥有的新Pi币的分布。换句话说，Pi币挖掘奖励计算只有每天一次，而不是在每个块环链块。</p>
+<p>For comparison Bitcoin allocates mining rewards on every block and it give all of the reward to the miner who was lucky enough to be able to solve a computationally intensive randomized task. This reward in Bitcoin currently 12.5 Bitcoin (~$40K) is given to only one miner every 10 minutes. This makes it extremely unlikely for any given miner to ever get rewards. As a solution to that, bitcoin miners are getting organized in centralized mining pools, which all contribute processing power, increasing the likelihood of getting rewards, and eventually sharing proportionally those rewards. Mining pools are not only points of centralization, but also their operators get cuts reducing the amount going to individual miners. In Pi, there is no need for mining pools, since once a day everyone who contributed get a meritocratic distribution of new Pi.<br>
+相对而言，比特币在每个区块上分配挖掘奖励，并将所有奖励给那些幸运地能够解决计算密集型随机任务的矿工。目前，每10分钟只有一名矿工能获得12.5比特币(约合40000美元)的奖励。这使得任何给定的矿工都极不可能得到奖励。为了解决这个问题，比特币矿工被组织在集中的挖掘池中，这些都有助于提高处理能力，增加获得奖励的可能性，并最终按比例分享这些奖励。矿池不仅是中央集权的要点，而且它们的经营者被削减，减少了支付给个体矿工的金额。在Pi中，没有挖掘资源的必要，因为每个贡献者每天都会得到一次新派的Pi币分配。</p>
+<p>Transaction fees<br>
+交易费用<br>
+Similar to Bitcoin transactions, fees are optional in the Pi Network. Each block has a certain limit of how many transactions can be included in it. When there is no backlog of transactions, transactions tend to be free. But if there are more transactions, nodes order them by fee, with highest-fee-transactions at the top and pick only the top transactions to be included in the produced blocks. This makes it an open market. Implementation: Fees are proportionally split among Nodes once a day. On every block, the fee of each transaction is transferred into a temporary wallet from where in the end of the day it is distributed to the active miners of the day. This wallet has an unknown private key. Transactions in and out of that wallet are forced by the protocol itself under the consensus of all nodes in the same way the consensus also mints new Pi every day.<br>
+与比特币交易类似，在Pi网络中收费是可选的。每个块对其中包含的事务数量都有一定的限制。当交易没有积压时，交易往往是自由的。但是，如果有更多的交易，节点按照收费顺序排序，收费最高的交易位于顶端，并且只选择要包含在生成块中的最高交易。这使它成为一个开放的市场。实现方式:每天按比例在节点之间分摊一次费用。在每个块区，每笔交易的费用都会转入一个临时钱包，在一天结束时，钱包会被分发给当天的活跃矿工。这个钱包有一个未知的私人钥匙。在所有节点的一致同意下，协议本身强制进出这个钱包的交易，就像一致同意每天都在铸造新的Pi币一样。</p>
+<p>Limitations and future work<br>
+限制和未来的工作<br>
+SCP has been extensively tested for several years as part of the Stellar Network, which at the time of this writing is the ninth largest cryptocurrency in the world. This gives us a quite large degree of confidence in it. One ambition of the Pi project is to scale the number of nodes in the Pi Network to be larger than the number of nodes in the Stellar network to allow more everyday users to participate in the core consensus algorithm. Increasing the number of nodes, will inevitably increase the number of network messages that must be exchanged between them. Even though these messages are much smaller than an image or a youtube video, and the Internet today can reliably transfer videos quickly, the number of messages necessary increases with the number of participating nodes, which can become bottleneck to the speed of reaching consensus. This will ultimately slow down the rate, at which new blocks and new transactions are recorded in the network. Thankfully, Stellar is currently much faster than Bitcoin. At the moment, Stellar is calibrated to produce a new block every 3 to 5 seconds, being able to support thousands of transactions per second. By comparison, Bitcoin produces a new block every 10 minutes. Moreover, due to Bitcoin's lack in the safety guarantee, Bitcoin's blockchain in rare occasions can be overwritten within the first hour. This means that a user of Bitcoin must wait about 1 hour before they can be sure that a transaction is considered final. SCP guarantees safety, which means after 3-5 seconds one is certain about a transaction. So even with the potential scalability bottleneck, Pi expects to achieve transaction finality faster than Bitcoin and possibly slower than Stellar, and process more transactions per second than Bitcoin and possibly fewer than Stellar.<br>
+作为Stellar网络的一部分，SCP已经被广泛测试了几年，在撰写本文时，该网络是世界上第九大密码货币。这给了我们相当大的信心。项目的一个目标是将Pi网络中的节点数量扩大到大于Stellar网络中的节点数量，以便让更多的日常用户参与核心一致性算法。增加节点的数量，将不可避免地增加必须在它们之间交换的网络消息的数量。尽管这些信息比图片或youtube视频小得多，而且今天的互联网可以可靠地快速传输视频，但是必要的信息数量随着参与节点数量的增加而增加，这可能成为达成共识速度的瓶颈。这将最终降低网络中记录新块和新事务的速度。值得庆幸的是，Stellar目前比比特币快得多。目前，Stellar被校准为每3到5秒生成一个新块，能够支持每秒数千次的事务处理。相比之下，比特币每10分钟产生一个新块。此外，由于比特币缺乏安全保障，比特币的区块链在罕见的情况下可以在第一个小时内被覆盖。这意味着比特币用户必须等待大约1小时，才能确保交易被视为最终交易。Scp可以保证安全，这意味着在3-5秒之后就能确认一笔交易。因此，即使存在潜在的可伸缩性瓶颈，Pi还是希望比比特币更快地完成交易结束，速度可能比Stellar慢，但每秒处理的交易量比比特币更多，界于Stellar与比特币之间。</p>
+<p>While scalability of SCP is still an open research problem. There are multiple promising ways one could speed things up. One possible scalability solution is bloXroute. BloXroute proposes a blockchain distribution network (BDN) that utilizes a global network of servers optimized for network performance. While each BDN is centrally controlled by one organization, they offer a provably neutral message passing acceleration. I.e. BDNs can only serve all nodes fairly without discrimination as messages are encrypted. This means the BDN does not know where messages come from, where they go, or what is inside. This way Pi nodes can have two message passing routes: A fast one through BDN, which is expected to be reliable most of the time, and its original peer-to-peer message passing interface that is fully decentralized and reliable but is slower. The intuition of this idea is vaguely similar to caching: The cache is place where a computer can access data very quickly, speeding the average computation, but it is not guaranteed to always have every needed piece of information. When the cache misses, the computer is slowed down but nothing catastrophic happens. Another solution can be using secure acknowledgment of multicast messages in open Peer-to-Peer networks [Nicolosi and Mazieres 2004] to speed up message propagation among peers.<br>
+然而SCP的可扩展性仍然是一个有待研究的问题。一个人可以通过多种可期的方式加快进度。一个可能的弹性解决方案是bloXroute。Bloxroute提出了一个区块链分布式网络(BDN)，它利用了一个为网络性能优化的全球服务器网络。虽然每个BDN由一个组织集中控制，但它们提供了一个可证明的中立消息传递加速。也就是说，当消息被加密时，bdn只能公平地为所有节点提供服务而不会受到排挤。这意味着BDN不知道消息来自哪里，它们去哪里，或者消息内容是什么。通过这种方式，Pi节点可以有两个消息传递路由:一个是通过BDN的快速路由，预计在大多数情况下是可靠的;另一个是其原始的点对点消息传递接口，该接口完全分散且可靠，但速度较慢。这个想法的直觉与缓存有点相似:缓存是计算机可以非常快速地访问数据的地方，加快了平均计算速度，但它并不能保证总是拥有所有需要的信息。当缓存未找到时，计算机就会变慢，但不会发生灾难性的情况。另一个解决方案是在开放的对等网络中使用多播消息的安全确认来加速对等网络中的消息传播。</p>
+<p>Pi Economic Model: Balancing Scarcity and Access<br>
+Pi经济模型:稀缺性与获取性的平衡</p>
+<p>Pros and cons of 1st Generation Economic Models<br>
+第一代经济模型的利与弊<br>
+One of Bitcoin's most impressive innovations is its marriage of distributed systems with economic game theory.<br>
+比特币最令人印象深刻的创新之一是它将分布式系统与经济博弈理论结合起来。</p>
+<p>Pros<br>
+优点</p>
+<p>Fixed Supply<br>
+固定供应<br>
+Bitcoin's economic model is simple. There will only ever be 21 million Bitcoin in existence. This number is set in code. With only 21M to circulate among 7.5B people around the world, there is not enough Bitcoin to go around. This scarcity is one of most important drivers of Bitcoin's value.<br>
+比特币的经济模型很简单。只有2100万比特币的总量控制。这个数字是用代码设置的。由于只有2100万比特币可以在全球75亿人中流通，所以没有足够的比特币可以流通。这种稀缺性是比特币价值最重要的驱动因素之一。</p>
+<p>Decreasing Block Reward<br>
+块奖励递减模式<br>
+Bitcoin' distribution scheme, pictured below, further enforces this sense of scarcity. The Bitcoin block mining reward halves every 210,000 blocks (approximately every ~4 years.) In its early days, the Bitcoin block reward was 50 coins. Now, the reward is 12.5, and will further decrease to 6.25 coins in May 2020. Bitcoin's decreasing rate of distribution means that, even as awareness of the currency grows, there is less to actually mine.<br>
+如下图所示，比特币的分配方案进一步强化了这种稀缺感。初期比特币块挖掘每21万块奖励一半(大约每4年)，比特币块的奖励是50个比特币。现在，奖金是12.5个币，到2020年5月将进一步减少到6.25枚币。比特币发行量的下降意味着，即使人们对这种货币的认识有所提高，实际挖掘的比特币数量也会减少。</p>
+<p>Cons<br>
+缺点<br>
+Inverted Means Uneven<br>
+倒立意味着不平衡<br>
+Bitcoin's inverted distribution model (less people earning more in the beginning, and more people earn less today) is one of the primary contributors to its uneven distribution. With so much Bitcoin in the hands of a few early adopters, new miners are "burning" more energy for less bitcoin.<br>
+比特币的反向分布模式(比特币开始时收入较少，现在收入较少)是其分布不均衡的主要原因之一。由于有这么多比特币掌握在少数早期使用者手中，新的矿工们正在"燃烧"更多的能量，以换取更少的比特币。</p>
+<p>Hoarding Inhibits Use as a Medium of Exchange<br>
+币的囤积抑制了比特币作为交易媒介的使用<br>
+Although Bitcoin was released as a "peer to peer electronic cash" system, the relative scarcity of Bitcoin has impeded Bitcoin's goal of serving as a medium exchange. Bitcoin's scarcity has led to its perception as a form of "digital gold" or a digital store of value. The result of this perception is that many Bitcoin holders are unwilling to spend Bitcoin on day-to-day expenses.<br>
+虽然比特币是作为"点对点电子现金"系统发行的，但比特币的相对稀缺性阻碍了比特币作为交易媒介的目标。比特币的稀缺性导致它被认为是一种"数字黄金"或一种数字价值储存。这种看法的结果是，许多比特币持有者不愿意花比特币支付日常开支。</p>
+<p>The Pi Economic Model<br>
+Pi经济模型<br>
+Pi, on the other hand, seeks to strike a balance between creating a sense of scarcity for Pi, while still ensuring that a large amount does not accumulate into a very small number of hands. We want to make sure our users earn more Pi as they make contributions to the network. Pi's goal is to build an economic model that is sophisticated enough to achieve and balance these priorities while remaining intuitive enough for people to use.<br>
+另一方面，Pi系统试图在为Pi币创造稀缺感的同时，确保大量的Pi币不会积累到极少数人的手中，找到一种平衡。我们希望确保我们的用户在为网络做贡献时能获得更多的Pi币。的目标是建立一个足够复杂的经济模型来实现和平衡这些优先事项，同时保持足够的直观性以供人们使用。</p>
+<p>Pi's economic model design requirements:<br>
+Pi的经济模型设计要求:</p>
+<p>•	Simple: Build an intuitive and transparent model<br>
+•	简单:建立一个直观和透明的模型</p>
+<p>•	Fair distribution: Give a critical mass of the world's population access to Pi<br>
+•	公平分配:让世界上足够多的人接触到Pi</p>
+<p>•	Scarcity: Create a sense of scarcity to sustain Pi's price over time<br>
+•	稀缺性:创造一种稀缺感来维持Pi的价格而不随时间的推移而贬值</p>
+<p>•	Meritocratic earning: Reward contributions to build and sustain the network<br>
+•	精英收入:奖励建立和维持网络的贡献</p>
+<p>Pi - Token Supply<br>
+Pi-令牌供应</p>
+<p>Token Emission Policy<br>
+通证释放政策</p>
+<ol>
+<li>
+<p>Total Max Supply（最大供应量） = M + R + D<br>
+•	M = total mining rewards（挖矿奖励总额）<br>
+•	R = total referral rewards（推荐奖励总额）<br>
+•	D = total developer rewards（开发者奖励总额）</p>
+</li>
+<li>
+<p>M = ∫ f§ dx,where f is a logarithmically declining function.(其中f是对数递减函数。)<br>
+•	P = Population number (e.g., 1st person to join, 2nd person to join, etc.)<br>
+•	P = 人口数(例如，第一个参加者，第二个参加者，等等)</p>
+</li>
+<li>
+<p>R = r * M<br>
+•	r = referral rate (50% total or 25% for both referrer and referee)<br>
+•	r = 转送率(总转介率为50%，推荐人和裁判人均为25%)</p>
+</li>
+<li>
+<p>D = t * (M + R)</p>
+</li>
+<li>
+<p>t = developer reward rate开发者奖励率 (25%)</p>
+</li>
+</ol>
+<p>M - Mining Supply (Based on fixed mining supply minted per person)<br>
+挖矿供应(以每人固定挖矿供应为基础)<br>
+In contrast to Bitcoin which created a fixed supply of coins for the entire global population, Pi creates a fixed supply of Pi for each person that joins the network up to the first 100 Million participants. In other words, for each person that joins the Pi Network, a fixed amount of Pi is pre-minted. This supply is then released over the lifetime of that member based on their level of engagement and contribution to network security. The supply is released using an exponentially decreasing function similar to Bitcoin's over the member's lifetime.<br>
+与为全球人口提供固定货币供应的比特币不同，Pi为每个加入网络的人提供固定的Pi值，直到第一个1亿个参与者。换句话说，对于每个加入Pi网络的人，都预先生成一个固定数量的Pi币。然后，根据该成员的参与程度和对网络安全的贡献，在其生命周期内释放此供应。在用户的生命周期中，这些供给使用一个类似于比特币的指数递减函数来释放。</p>
+<p>R - Referral Supply (Based on fixed referral reward minted per person and shared b/w referrer and referee)<br>
+推荐供应(基于固定的推荐奖励于每个人和共享的基础及共享的推荐人和裁决人奖励)<br>
+In order for a currency to have value, it must be widely distributed. To incentivize this goal, the protocol also generates a fixed amount of Pi that serves as a referral bonus for both the referrer and the referee (or both parent and offspring 😃 This shared pool can be mined by both parties over their lifetime - when both parties are actively mining. Both referrer and referee are able to draw upon this pool in order to avoid exploitative models where referrers are able to "prey" on their referees. The referral bonus serves as a network-level incentive to grow the Pi Network while also incentivizing engagement among members in actively securing the network.<br>
+为了使一种货币具有价值，它必须被广泛分发。为了激励这个目标，协议还产生了一个固定数量的Pi币，作为推荐者和被推荐者(譬如父母和子女)的推荐奖励:当双方都在积极挖掘时，这个共享池可以由双方共存他们的毕生挖矿奖励。推荐人和裁决人都可以利用这个矿池，以避免裁决人会"剥夺"他们的裁决人模式。推荐奖励作为网络层面的激励，促进Pi网络的发展，同时也激励会员积极参与网络安全。</p>
+<p>D - Developer Reward Supply (Additional Pi minted to support ongoing development)<br>
+D-开发人员奖励补给(为支持正在进行的开发而产生的额外Pi币)<br>
+Pi will fund its ongoing development with a "Developer Reward" that is minted alongside each coin that is minted for mining and referrals. Traditionally, cryptocurrency protocols have minted a fixed amount of supply that is immediately placed into treasury. Because Pi's total supply is dependent on the number of members in the network, Pi progressively mints its developer reward as the network scales. The progressive minting of Pi's developer reward is meant to align the incentives of Pi's contributors with the overall health of the network.<br>
+Pi将确保"开发者奖励"的每个Pi币是挖矿及推荐产生的。传统观念上，加密货币协议已经确定了一个固定数量的币供应，就放入中心库。由于Pi的总供应量取决于网络中的成员数量，因此随着网络规模的扩大，Pi逐渐减少了对开发者的奖励。对Pi开发者的奖励的逐步增加是为了使Pi的贡献者的激励与整个网络的健康状况保持一致。</p>
+<p>f is a logarithmically decreasing function - early members earn more<br>
+F是一个对数递减函数-早期成员赚得更多<br>
+While Pi seeks to avoid extreme concentrations of wealth, the network also seeks to reward earlier members and their contributions with a relatively larger share of Pi. When networks such as Pi are in their early days, they tend to provide a lower utility to participants. For example, imagine having the very first telephone in the world. It would be a great technological innovation but not extremely useful. However, as more people acquire telephones, each telephone holder gets more utility out of the network. In order to reward people that come to the network early, Pi's individual mining reward and referral rewards decrease as a function of the number of people in the network. In other words, there is a certain amount of Pi that is reserved for each "slot" in the Pi Network.<br>
+虽然Pi试图避免财富过度集中，但该网络也试图以相对较大的比例奖励早期成员和他们的贡献。当像Pi这样的网络处于早期阶段时，它们倾向于为参与者提供较低的效用。例如，想象一下世界上第一部电话。这将是一个伟大的技术创新，但不是非常有用。然而，随着越来越多的人拥有了电话，每个电话持有者从网络中获得了更多的实用性。为了奖励那些早早来到网络的人，Pi的个人挖矿奖励和推荐奖励随着网络中人数的增加而减少。换句话说，有一定数量的Pi是留个"席位"存在于Pi网络之中。</p>
+<p>Utility: Pooling and monetizing our time online<br>
+实用性:在线时间的汇集和货币化<br>
+Today, everyone is sitting on a veritable treasure trove of untapped resources. Each of spend hours day on our phones. While on our phones, each of our views, posts or clicks creates extraordinary profits for large corporations. At Pi, we believe that people have the right to capture value created from their resources.<br>
+今天，每个人都坐在一个名副其实的未开发资源宝库上。每个人每天花几个小时在我们的手机上。在我们的手机上，我们的每一个观点、帖子和点击都为大公司创造了非凡的利润。在Pi网络中，我们相信人们有权利从他们的资源中获取价值。</p>
+<p>We all know that we can do more together than we can alone. On today's web, massive corporations like Google, Amazon, Facebook have immense leverage against individual consumers. As a result, they are able to capture the lionshare of value created by individual consumers on the web. Pi levels the playing field by allowing its members to pool their collective resources so they can get a share of the value that they create.<br>
+我们都知道，我们一起能做的比我们单独能做的更多。在今天的互联网上，像谷歌、亚马逊、Facebook这样的大公司对个人消费者有着巨大的影响力。因此，他们能够抓住个人消费者在网络上创造的巨大价值份额。通过允许其成员共享他们的集体资源，这样他们就可以获得他们创造的价值的一部分，从而平衡了竞争环境。</p>
+<p>The graphic below is the Pi Stack, where we see particularly promising opportunities for helping our members capture value. Below, we go into each of these areas in more detail.<br>
+下面的图表是Pi堆栈，在这里我们看到了帮助我们的成员获取价值的特别有前途的机会。下面，我们将更详细地介绍这些领域中的每一部分。</p>
+<p>Introducing the Pi Stack - Unleashing underutilized resources<br>
+介绍Pi堆栈-释放未充分利用的资源</p>
+<p>Pi Ledger And Shared Trust Graph - Scaling Trust Across The Web<br>
+Pi分类账和共享信任图——跨Web扩展信任<br>
+One of the biggest challenges on the internet is knowing who to trust. Today, we rely on the rating systems of providers such as Amazon, eBay, Yelp, to know who we can transact with on the internet. Despite the fact that we, customers, do the hard work of rating and reviewing our peers, these internet intermediaries capture the lionshare of the value created this work.<br>
+互联网上最大的挑战之一就是知道该信任谁。今天，我们依赖于诸如亚马逊、eBay、Yelp等供应商的评级系统来了解我们可以在互联网上与谁进行交易。尽管我们这些客户做着评级和审查同行的艰苦工作，但这些互联网中介机构捕捉到了创造这项工作的巨大价值份额。</p>
+<p>Pi's consensus algorithm, described above, creates a native trust layer that scales trust on the web without intermediaries. While the value of just one individual's Security Circle is small, the aggregate of our individual security circles build a global "trust graph" that help people understand who on the Pi Network can be trusted. The Pi Network's global trust graph will facilitate transactions between strangers that would not have otherwise been possible. Pi's native currency, in turn, allows everyone who contributes to the security of the network to capture a share of the value they have helped create.<br>
+上面描述的Pi一致性算法创建了一个本地信任层，可以在没有中介的情况下衡量网络上的信任度。虽然仅仅一个人的安全圈的价值很小，但是我们个人安全圈的总和可以建立一个全局的"信任图"，帮助人们了解Pi网络上的哪些人可以信任。网络的全球信任图将为陌生人之间的交易提供便利，否则这是不可能的。的本地货币，反过来，允许每个贡献于网络安全的人捕获他们帮助创造的价值的一部分。</p>
+<p>Pi's Attention Marketplace - Bartering Unutilized Attention And Time<br>
+Pi关注的市场-未被开发的关注与时间的交互<br>
+Pi allows its members to pool their collective attention to create an attention market much more valuable than any individual's attention alone. The first application built on this layer will be a scarce social media channel currently hosted on the home screen of the application. You can think of the scarce social media channel as Instagram with one global post at a time. Pioneers can wager Pi to engage the attention of other members of the network, by sharing content (e.g., text, images, videos) or asking questions that seek to tap into the collective wisdom of the community. On the Pi Network, everyone has the opportunity to be an influencer or to tap into the wisdom of the crowd. To date, Pi's Core Team has been using this channel to poll the community's opinion on design choices for Pi (e.g. the community voted on the design and colors of the Pi logo.) We have received many valuable responses and feedback from the community on the project. One possible future direction is to open the attention market for any Pioneer to use Pi to post their content, while expanding the number of channels hosted on the Pi Network.<br>
+允许其成员集中他们的注意力创造一个比个人关注更有价值的市场。建立在这一层上的第一个应用程序将是目前托管在应用程序主界面上的一个稀缺的社会媒体频道。你可以把稀缺的社交媒体频道想象成一次发布一个全球帖子的Instagram。先锋们可以用Pi换取其它Pi网络用户的关注，通过分享内容(比如文本、图片、视频)或者提问来挖掘社区的集体智慧，从而吸引网络上其他成员的注意力。在Pi网络，每个人都有机会成为一个影响者或挖掘群众的能人。迄今为止，Pi的核心团队一直在使用这个渠道来调查社区对Pi设计选择的意见(例如，社区对Pi标志的设计和颜色进行了投票。)我们收到了社区对这个项目的许多有价值的回应和反馈。一个可能的未来方向是开放关注市场，任何先锋使用Pi发布他们的内容，同时扩大在Pi网络中的影响力。</p>
+<p>In addition to bartering attention with their peers, Pioneers may also opt into bartering with companies that are seeking their attention. The average American sees between 4,000 and 10,000 ads a day. Companies fight for our attention and pay tremendous amounts of money for it. But we, the customers, receive no value from these transactions. In Pi's attention marketplace, companies seeking to reach Pioneers will have to compensate their audience in Pi. Pi's advertising marketplace will be strictly opt-in only and will provide an opportunity for Pioneers to monetize one of their greatest untapped resources: their attention.<br>
+除了与同行交换关注，先锋还可能选择与那些寻求他们关注的公司进行交易。美国人平均每天看4000到10000个广告。公司为了吸引我们的注意力而斗争，并为此支付了大量的金钱。但是我们，客户，从这些交易中得不到任何价值。在Pi的关注市场中，想要接近先锋的公司将不得不补偿他们在Pi中的观众。Pi的广告市场将严格限制用户的选择，这将为先锋们提供一个机会，使他们最大的尚未开发的资源之一——他们的注意力——实现盈利。</p>
+<p>Pi's Barter Marketplace - Build Your Personal Virtual Storefront<br>
+Pi的易货市场-建立你的个人虚拟店面<br>
+In addition to contributing trust and attention to the Pi Network, we expect Pioneers to be able to contribute their unique skills and services in the future. Pi's mobile application will also serve as a Point of Sales where Pi's members can offer their untapped goods and services via a "virtual storefront" to other members of the Pi Network. For example, a member offer up an underutilized room in their apartment for rent to other members on the Pi Network. In addition to real assets, members of the Pi Network will also be able to offer skills and services via their virtual storefronts. For example, a member of the Pi Network could offer their programming or design skills on the Pi marketplace. Overtime, the value of Pi will be supported by a growing basket of goods and services.<br>
+除了为Pi网络提供信任和关注外，我们期待先锋们在未来能够贡献他们独特的技能和服务。Pi的移动应用程序也将作为销售点，Pi的成员可以通过"虚拟店面"向Pi网络的其他成员提供他们尚未开发的商品和服务。例如，一个成员在他们的公寓里提供了一个未使用的房间出租给Pi网络的其他成员。除了实物资产，Pi网络的成员还可以通过他们的虚拟店面提供技能和服务。例如，Pi网络的成员可以在Pi市场上提供他们的编程或设计技能。随着时间的推移，越来越多的商品和服务将支撑Pi的价值。</p>
+<p>Pi's Decentralized App Store - Lowering The Barrier Of Entry For Creators<br>
+Pi的分布式应用商店——降低创造者的进入门槛<br>
+The Pi Network's shared currency, trust graph, and marketplace will be the soil for a broader ecosystem of decentralized applications. Today, anyone that wants to start an application needs to bootstrap its technical infrastructure and community from scratch. Pi's decentralized applications store will allow Dapp developers to leverage Pi's existing infrastructure as well as the shared resources of the community and users. Entrepreneurs and developers can propose new Dapps to the community with requests for access to the network's shared resources. Pi will also build its Dapps with some degree of interoperability so that Dapps are able to reference data, assets, and processes in other decentralized applications.<br>
+网络的共享货币、信任图表和市场将成为更广泛的分布式应用生态系统的土壤。今天，任何想要启动应用程序的人都需要从头开始引导它的技术基础设施和社区。Pi的分布式应用程序商店将允许Dapp开发者利用Pi现有的基础设施以及社区和用户的共享资源。企业家和开发者可以向社区提出访问网络共享资源的请求。Pi还将构建具有某种程度互操作性的Dapps，以便Dapps能够引用其他分散应用程序中的数据、资产和流程。</p>
+<p>Governance - Cryptocurrency for and by the people<br>
+治理——众创和众用的加密货币</p>
+<p>Challenges w/ 1st Generation Governance models<br>
+第一代治理模式面临的挑战<br>
+Trust is the foundation of any successful monetary system. One of the most important factors engendering trust is governance, or the process by which changes are implemented to the protocol over time. Despite its importance, governance is often one of the most overlooked aspects of cryptoeconomic systems.<br>
+信任是任何成功的货币体系的基础。产生信任的最重要因素之一是治理，即随着时间的推移对协议进行更改的过程。尽管其重要性，治理往往是一个最被忽视的方面加密经济系统。</p>
+<p>First generation networks such as Bitcoin largely avoided formal (or "on-chain") governance mechanisms in favor of informal (or "off-chain") mechanisms arising from a combination of role and incentive design. By most measures, Bitcoin's governance mechanisms has been quite successful, allowing the protocol to grow dramatically in scale and value since its inception. However, there have also been some challenges. The economic concentration of Bitcoin has led to a concentration of political power. The result is that everyday people can get caught in the middle of destructive battles between massive holders of Bitcoin. One of the most recent examples of this challenge has been the ongoing battle between Bitcoin and Bitcoin Cash. These civil wars can end in a fork where or where the blockchain. For token holders, hard forks are inflationary and can threaten the value of their holdings.<br>
+像比特币这样的第一代网络在很大程度上避免了正式的(或"链上")治理机制，而更青睐于由角色和激励设计相结合产生的非正式(或"链外")机制。从大多数标准来看，比特币的治理机制相当成功，从一开始就允许该协议在规模和价值上爆发式地增长。然而，也存在一些挑战。比特币的经济集中导致了政治权力的集中。其结果是，每天人们都可能陷入大量比特币持有者之间的破坏性战争。这一挑战最近的一个例子是比特币和比特币现金之间的持续战争。这些内战导致硬分叉的产生。对于名义持有者来说，硬分叉会造成通货膨胀，并且会威胁到他们所持有的资产的价值。</p>
+<p>Pi's Governance Model - a two-phase plan<br>
+Pi的治理模型-一个两阶段的计划<br>
+In an article challenging the merits of on-chain governance, Vlad Zamfir, one of Ethereum's core developers, argues that blockchain governance "is not an abstract design problem. It's an applied social problem." One of Vlad's key points is that it is very difficult to design governance systems "a priori" or before observations of the particular challenges arising from a specific political system. One historical example is in the founding of the United States. The first experiment with democracy in the United States, the Articles of Confederation, failed after an eight-year experiment. The Founding Fathers of the United States were then able to draw upon the lessons of the Article of Confederation to craft the the Constitution - a much more successful experiment.<br>
+在一篇质疑连锁治理优点的文章中，VladZamfir，Ethereum的核心开发者之一，认为区块链治理"不是一个抽象的设计问题。这是一个实用的社会问题。"弗拉德的主要观点之一是，很难"先验地"设计治理制度，或在观察某一具体政治制度所产生的特殊挑战之前设计治理制度。历史上的一个先例就是美国的成立。美国的第一个民主实验----邦联条例经过八年的实验以失败告终。于是，美国开国元勋能够吸取联邦宪法条款的教训，制定宪法，这是一个更加成功的实验。</p>
+<p>To build an enduring governance model, Pi will pursue a two-phase plan.<br>
+为了构建一个持久的治理模型，Pi将实施两阶段计划。</p>
+<p>Provisional Governance Model (&lt; 5M members)<br>
+临时管治模式(500万成员)<br>
+Until the network hits a critical mass of 5M members, Pi will operate under a provisional governance model. This model will most closely resemble "off-chain" governance models currently employed by protocols like Bitcoin and Ethereum, with Pi's Core Team playing an important role in guiding the development of the protocol. However, Pi's Core Team will still rely heavily on the input of the community. The Pi mobile application itself is where Pi's core team has been soliciting community input and engaging with Pioneers. Pi embraces community critiques and suggestions, which is implemented by the open-for-comments features of Pi's landing page, FAQs and white paper. Whenever people browse these materials on Pi's websites, they can submit comment on a specific section right there to ask for questions and make suggestions. Offline Pioneer meetups that Pi's core team have been organizing will also be an important channel for community input.<br>
+在网络达到500万成员的临界规模之前，Pi将在临时管理模式下运作。这种模式与比特币和Ethereum等协议目前使用的"离链"治理模式最为相似，Pi的核心团队在指导协议的开发方面发挥了重要作用。然而，Pi的核心团队仍然严重依赖社区的投入。的核心团队一直在Pi的移动应用程序本身征求社区的意见，并与先锋合作。Pi包容社区的批评和建议，这些建议通过Pi登陆页面、常见问题解答和白皮书的开放式评论功能得以实现。每当人们在Pi的网站上浏览这些资料时，他们可以在那里的特定部分提交评论，询问问题并提出建议。的核心团队组织的线下先锋见面会也是社区投入的一个重要渠道。</p>
+<p>Additionally, Pi's Core Team will develop more formal governance mechanics. One potential governance system is liquid democracy. In liquid democracy, every Pioneer will have the ability to either vote on an issue directly or to delegate their vote to another member of the network. Liquid democracy would allow for both broad and efficient membership from Pi's community.<br>
+此外，Pi的核心团队将开发更加正式的治理机制。一个潜在的治理体系是液态民主。在液态民主制度下，每一个先锋将有能力直接对一个问题进行投票，或者将他们的投票权委托给网络中的另一个成员。液态民主制度将包纳来自Pi团体的广泛而有效的成员。</p>
+<p>Pi's "Constitutional Convention" (&gt; 5M members)<br>
+Pi的「制宪会议」(500万名成员)<br>
+Upon hitting 5M members, a provisional committee will be formed based on previous contributions to the Pi Network. This committee will be responsible for soliciting and proposing suggestions from and to the wider community. It will also organize a series of on- and offline conversations where Pi's members will be able to weigh on Pi's long-term constitution. Given Pi's global user base, the Pi Network will conduct these conventions at multiple locations across the world to ensure accessibility. In addition to hosting in-person conventions, Pi will also use its mobile application as a platform for allowing Pi's member to participate in the process remotely. Whether in-person or online, Pi's community members will have the ability to participate in the crafting Pi's long-term governance structure.<br>
+在500万成员的基础上，一个临时委员会将根据先前对Pi网络的贡献成立。该委员会将负责向更广泛的社区征求和提出建议。它还将组织一系列的在线和线下对话，在这些对话中，Pi的成员将能够对派的长期体质发表意见。鉴于Pi的全球用户基础，Pi网络将在全球多个地点举行这些会议，以确保无障碍性。除了举办见面会，Pi还将使用其移动应用程序作为平台，允许Pi的成员远程参与进程。无论是面对面的还是在线的，Pi的社区成员都能有渠道参与制定派的长期治理结构。</p>
+<p>Roadmap / Deployment plan<br>
+路线图/部署计划</p>
+<p>Phase 1 - Design, Distribution, Trust Graph Bootstrap.<br>
+阶段1-设计，分发，信任图引导程序。<br>
+The Pi server is operating as a faucet emulating the behavior of the decentralized system as it will function once its live. During this phase improvements in the user experience and behavior are possible and relatively easy to make compared to the stable phase of the main net. All minting of coins to users will be migrated to the live net once it launches. In other words, the livenet will pre-mint in its genesis block all account holder balances generated during Phase 1, and continue operating just like the current system but fully decentralized. Pi is not listed on exchanges during this phase and it is impossible to "buy" Pi with any other currency.<br>
+服务器就像一个水龙头一样运行，模分布式系统的行为，因为它一旦运行就会正常工作。在这个阶段，与主网络的稳定阶段相比，用户体验和行为的改进是可行的，也是相对容易的。Pi网络一旦启动所有挖币用户将迁移到生活网络中。换言之，在阶段1，所有的区块挖掘都分散于每个持币者手中。在这个阶段，Pi币不在交易所上市，任何交易都是不可行的。</p>
+<p>Phase 2 - Testnet<br>
+第二阶段-测试网<br>
+Before we launch the main net, the Node software will be deployed on a test net. The test net will use the same exact trust graph as the main net but on a testing Pi coin. Pi core team will host several nodes on the test net, but will encourage more Pioneers to start their own nodes on the testnet. In fact, in order for any node to join the main net, they are advised to begin on the testnet. The test net will be run in parallel to the Pi emulator in phase one, and periodically, e.g. daily, the results from both systems will be compared to catch the gaps and misses of the test net, which will allow Pi developers to propose and implement fixes. After a thorough concurrent run of both systems, testnet will reach a state where its results consistently match the emulator's. At that time when the community feels its ready, Pi will migrate to the next phase.<br>
+在我们启动主网络之前，Node软件将被部署在一个测试网络上。测试网络将使用与主网络完全相同的信任图，但是在测试Pi币系统上。核心团队将在测试网络上托管多个节点，但是将鼓励更多的先锋在测试网络上启动他们自己的节点。事实上，为了让任何节点加入主网络，建议它们从测试网开始。测试网络将在第一阶段与Pi模拟器并行运行，并且定期进行比较，例如每天，两个系统的结果将进行比较，以捕捉测试网络的缺口和漏洞，这将允许Pi开发人员提出建议并实现修复。在两个系统完全并发运行之后，测试网将达到其结果与模拟器一致的状态。到那个时候，当社区觉得它已经准备完毕，Pi将迁移到下一个阶段。</p>
+<p>Phase 3 - Mainnet<br>
+第三阶段-主网<br>
+When the community feels the software is ready for production, and it has been thoroughly tested on the testnet, the official mainnet of the Pi Network will be launched. An important detail is that, in the transition into the mainnet, only accounts validated to belong to distinct real individuals will be honored. After this point, the faucet and Pi Network emulator of Phase 1 will be shut down and the system will continue on its own forever. Future updates to the protocol will be contributed by the Pi developer community and Pi's core team, and will be proposed by the committee. Their implementation and deployment will depend on nodes updating the mining software just like any other blockchains. No central authority will be controlling the currency and it will be fully decentralized. Balances of fake users or duplicate users will be discarded. This is the phase when Pi can be connected to exchanges and be exchanged for other currencies.<br>
+当社区认为软件已经可以投入运营，并且已经在测试网络上进行了彻底的测试，Pi网络的官方主网络就会启动。一个重要的细节是，在过渡到主网络时，将进行账户认证以确保每个用户是不同的真实的人。此后，第1阶段的分配制度和Pi网络模拟器将被关闭，系统将永远独立运行。协议的未来更新将由Pi开发者社区和Pi的核心团队提供，并将由委员会提出。他们的实施和部署将取决于节点更新挖掘软件就像任何其他区块链。不存在中央机构将控制货币，它将是完全分布式的。虚假用户或重复用户的余额将被剔除。在这个阶段，Pi将会登陆交易所，并与其他货币进行交易。</p>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+<!-- 
+ <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+
+  <form id="captcha" action="/submit_captcha" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;">
+    <script src="https://www.google.com/recaptcha/api.js?onload=recaptcha_loaded" async="" defer=""></script>
+<div data-size="invisible" data-sitekey="6Lcm1J8UAAAAAJJy-7-Kpg1LjGYN2Tf02xABX_RE" data-callback="recaptcha_validated" class="g-recaptcha "></div>
+
+    <input type="hidden" name="username" value="">
+    <br>
+    <input type="submit" value="Continue" class="btn btn-round border-purple btn-hero animated" style="display: none">
+</form></div>
+
+<script type="text/javascript" charset="utf-8">
+  $("#captcha").on("ajax:success", function () {
+    location.reload()
+  })
+</script> 
+-->
+
+<!--    <script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+-->
+  </body>
+</html>
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--  <meta charset="utf-8">-->
+<!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--  <meta name="description" content="">-->
+<!--  <meta name="author" content="">-->
+<!--  <title>Pi Network - Socially responsible digital currency</title>-->
+
+<!--  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">-->
+
+<!--  Bootstrap Core CSS -->
+<!--  <link href="css/bootstrap.min.css" rel="stylesheet">-->
+<!-- Animate CSS -->
+<!--  <link href="css/animate.css" rel="stylesheet">-->
+<!--  Font-awesome -->
+<!--  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">-->
+<!-- Flaticon -->
+<!--  <link rel="stylesheet" href="fonts/flaticon/css/flaticon.css">-->
+<!--  Google font-->
+<!--  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900" rel="stylesheet">-->
+<!--   Main CSS -->
+<!--  <link href="style.css" rel="stylesheet">-->
+<!--  <link href="custom.css" rel="stylesheet">-->
+<!--</head>-->
+
+<!--<body data-spy="scroll" data-target="#main-nav" data-offset="91">-->
+
+
+<!--</body>-->
+<!--</html>-->
